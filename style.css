@@ -1,0 +1,99 @@
+/*Colors and fonts */
+
+body {	background: #FDECF8;
+		color: #6C0650;
+		font-family: 'Lora', serif;
+		font-size: 16px; }
+
+h1 { 	color: #F109B1;
+		font-size: 38px; 
+		font-family: 'Roboto', sans-serif; }
+
+h2 { 	color: #FC03B8; 
+		font-size: 25px;
+		font-weight: lighter; }
+
+a { 	text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		color: #FD8BDE;
+		font-weight: 600;
+		font-size: 16px;
+		}
+
+a:hover { color: #FE4ECE; }
+
+/* Custom design with class (99% of your design) */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media  (max-width: 760px) {
+	.container {
+		width: 600px;
+}
+}
+
+@media  (max-width: 500px) {
+	.container {
+		width: 400px;
+}
+}
+
+
+.card-white {
+	background-color: white ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #FD8BDE;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-pink:hover {
+	background-color: #F109B1;
+	color: #FD8BDE;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: #F109B1;
+}
+
+/*Design adjustments usign id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
